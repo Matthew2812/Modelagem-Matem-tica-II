@@ -1,0 +1,67 @@
+Teoria das Filas
+
+Exercício 1)
+
+lambda = 5 chamadas por hora
+u = 7 atendentes por hora
+
+p = lambda/u -> 5/7 = 0.714 ou 71.4%
+
+TF = NF / lambda 
+TF = lambda / u(u - lambda) -> 5 / 7(7 - 5) = 5/14 = 0.357 * 60 = 21.4 minutos
+
+
+Exercício 2)
+
+NF = 0.9
+TA = 6 min -> u = 10 atendimentos por hora
+CA = 50
+CE = 300
+
+NF = lambda^2 / u(u - lambda) -> lambda^2 = u(u - lambda)NF
+lambda^2 = 10(10 - lambda)0.9 -> lambda^2 = 90 - 9lambda
+lambda^2 + 9lambda - 90 = 0
+
+delta = b^2-4ac = 9^2 - 4*1*(-90) = 81 + 360 = 441
+
+x = -b+-Vdelta/2a 
+x1 = -9 + V441 / 2*1 = -9 + 21 / 2 = 12/2 = 6
+x2 = -9 - V441 / 2*1 = -9 - 21 / 2 = -30/2 = -15
+
+lambda = 6 chegadas por hora
+
+CT = CE * NS + CA * u -> 300 * (6 / 10 - 6) + 50 * 10 = 300 * 1.5 + 500 = 950 por hora
+CTmes = 950 * 8 * 22 = 167200
+
+u* = lambda + V(lambda*CE/CA) -> 6 + V(6 * 300 / 50) = 6 + V(6 * 6) = 6 + 6 = 12 atendimentos por hora
+CT* = CE * NS* + CA * u* = 300 * (6 / 12 - 6) + 50 * 12 = 300 + 600 = 900 por hora  
+CT*mes = 900 * 8 * 22 = 158400
+
+Economia = CT - CT* - CustoMínimo = 167200 - 158400 - 7000 = 1800
+
+Compensa pois 1800 é maior que 700 (10% do Custo Mínimo)
+
+
+Exercício 3)
+
+u = 10 peças por semana
+lambda = 10 peças por semana
+CE = 500
+
+a)
+CE = 500 por semana -> 26000 por ano (500 * 52)
+TIPO A
+
+CT = 26000 * (10 / 11 - 10) + 80000 * 10 = 26000 * 10 + 800000 = 260000 + 800000 = 1060000
+
+TIPO B
+CT = 26000 * (10 / 30 - 10) + 80000 * 10 = 26000 * 0.5 + 800000 = 13000 + 800000 = 813000
+
+TIPO B é mais barato, compensa mais.
+
+b)
+
+
+
+
+b) 
