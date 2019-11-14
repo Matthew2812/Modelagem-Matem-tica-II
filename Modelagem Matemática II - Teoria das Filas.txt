@@ -45,7 +45,6 @@ Compensa pois 1800 é maior que 700 (10% do Custo Mínimo)
 Exercício 3)
 
 u = 10 peças por semana
-lambda = 10 peças por semana
 CE = 500
 
 a)
@@ -59,9 +58,7 @@ CT = 26000 * (10 / 30 - 10) + 80000 * 10 = 26000 * 0.5 + 800000 = 13000 + 800000
 
 TIPO B é mais barato, compensa mais.
 
-b)
 
-
-
-
-b) 
+b) Tocupacao = lambda / u -> 10 / 30 = 1/3 = 33%
+NS = lambda / u - lambda -> 10 / 30 - 10 = 10 / 20 = 1/2 = 0.5 máquinas por semana
+TF = lambda / u(u - lambda) -> 10 / 30(30 - 10) = 10 / 600 = 1/60 ou 2 horas (1/60 * 120 horas semanais)
